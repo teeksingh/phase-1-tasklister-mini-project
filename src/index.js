@@ -12,7 +12,6 @@ function handleFormSubmit(e){
   e.preventDefault()
   console.log(e)
   const task = e.target[0].value
-  
   displayTask(task)
 }
 
